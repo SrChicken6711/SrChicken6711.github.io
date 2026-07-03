@@ -16,7 +16,7 @@
   --color-gris-claro: #d0d9d6;
 
   /*Color del texto*/
-  --color-texto-principal: #ecf0f1;
+  --color-texto-principal: #274d56;
   --color-texto-secundario: #525b61;
   --color-texto-claro: #ecf0f1;
   --color-texto-oscuro: #2c3e50;
@@ -569,7 +569,14 @@ footer::before {
   background-color: var(--color-gris-claro);
 }
 
-div {
+.center-images {
   justify-content: center;
   align-items: center;
+  padding-left: 20%;
+}
+
+#imagen-flutter {
+  width: 50%;
+  padding-left: 30%;
+  box-shadow: none;
 }
